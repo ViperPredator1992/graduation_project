@@ -403,6 +403,10 @@ input {
   outline: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -411,12 +415,10 @@ input {
 
 .button-callback {
   font-weight: normal;
-  font-size: 14px;
   background-color: transparent;
   border: transparent;
   border-bottom: 1px solid #22bac1;
   color: #22bac1;
-  padding: 0;
 }
 
 .header {
@@ -481,5 +483,10 @@ input {
   color: #1f1f1f;
   font-size: 17px;
   font-weight: bold;
+}
+
+.header-contact__callback {
+  padding: 0;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
