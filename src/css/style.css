@@ -341,19 +341,6 @@ template {
   display: none;
 }
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: 'ProximaNova';
-  font-weight: normal;
-  font-size: 14px;
-}
-
 @font-face {
   font-display: swap;
   font-family: 'ProximaNova';
@@ -388,6 +375,19 @@ body {
   src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-size: 14px;
 }
 
 img {
