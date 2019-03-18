@@ -47,3 +47,7 @@ gulp.task('tinypng', function (done) {
         .pipe(gulp.dest('dist/img/'));
     done();
 });
+
+gulp.task('default', gulp.parallel('minify-css', 'move-js', 'htmlmin', 'fonts', 'tinypng', function (done) {    
+    done();    
+}))
