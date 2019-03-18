@@ -3,13 +3,30 @@
     &-block
         display: flex
         flex-wrap: wrap
+        align-items: center
         justify-content: space-between
+        min-height: 54px
     &-nav
         display: flex
         margin: 0
         padding: 0
         list-style-type: none
+        &__item
+            margin: 0 5px
+            &:first-child
+                margin: 0 5px 0 0
+            &:last-child
+                margin: 0 0 0 5px 
         &__link
             color: $black
             display: block
-            border-bottom: 1px solid 
+            font-weight: normal
+            border-bottom: 2px solid $border-bottom
+    &-contact
+        display: flex
+        flex-direction: column
+        &__phone
+            text-align: right
+            color: $phone-color 
+            font-size: 17px
+            font-weight: bold      
