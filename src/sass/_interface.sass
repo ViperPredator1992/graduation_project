@@ -19,6 +19,7 @@ button
     color: $button
 
 .burger
+    display: none
     cursor: pointer
     position: absolute
     &-block
@@ -49,3 +50,6 @@ button
 .burger-open .burger-block__bottom
     transform: rotate(-45deg)
     top: 7px        
+@media (max-width: 992px)
+    .burger
+        display: block       

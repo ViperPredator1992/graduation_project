@@ -10,7 +10,9 @@
             display: none
             flex-direction: column
             position: absolute
-            top: 77px
+            top: 90px
+            left: 0
+            width: 100%
             &__item
                 margin: 0
                 &:first-child
@@ -18,11 +20,25 @@
             &__link
                 color: $white
                 font-size: 18px
-                padding: 7px 0
+                padding: 7px 15px
         &-contact
             &__phone
                 color: $white 
         &-contact
             margin-top: 28px
             &__phone
-                margin-bottom: 13px                           
+                margin-bottom: 13px
+@media (max-width: 425px)
+    .header
+        & .container
+            padding: 0 8px
+        &-nav
+            top: 80px
+            &__link
+                padding: 7px 8px
+        &-contact
+            &__phone
+                margin-bottom: 5px
+    .burger
+        &-text
+            margin-left: 25px                                                                   
