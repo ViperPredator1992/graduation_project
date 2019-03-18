@@ -560,13 +560,42 @@ button {
 
 .main:before {
   content: '';
-  background: url(../img/offer/offer.jpg) center no-repeat;
+  background: url(../img/main/main.jpg) center no-repeat;
   min-height: 710px;
   width: 100%;
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.main-block {
+  position: relative;
+}
+
+.main-text {
+  max-width: 510px;
+}
+
+.main-text__title {
+  color: #fffafa;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 60px;
+  margin: 0 0 49px;
+}
+
+.main-text__subtitle {
+  color: #fffafa;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 66px 0 0;
 }
 
 @media (max-width: 1070px) {
