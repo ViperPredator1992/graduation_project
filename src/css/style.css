@@ -523,6 +523,13 @@ button {
   margin-left: 34px;
 }
 
+.burger-open.burger-block__top {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 0;
+}
+
 .offer:before {
   content: '';
   background: url(../img/offer/offer.jpg) center no-repeat;
