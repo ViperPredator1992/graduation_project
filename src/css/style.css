@@ -421,6 +421,61 @@ button {
   color: #22bac1;
 }
 
+.burger {
+  cursor: pointer;
+  position: absolute;
+}
+
+.burger-block {
+  position: relative;
+}
+
+.burger-block__top, .burger-block__center, .burger-block__bottom {
+  width: 17px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.burger-block__top {
+  top: 0;
+}
+
+.burger-block__center {
+  top: 7px;
+}
+
+.burger-block__bottom {
+  top: 14px;
+}
+
+.burger-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 34px;
+}
+
+.burger-open .burger-block__top {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 7px;
+}
+
+.burger-open .burger-block__center {
+  opacity: 0;
+}
+
+.burger-open .burger-block__bottom {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 7px;
+}
+
 .header {
   position: relative;
   z-index: 2;
@@ -489,47 +544,6 @@ button {
   font-size: 14px;
 }
 
-.burger {
-  margin-top: 25px;
-  cursor: pointer;
-}
-
-.burger-block {
-  position: relative;
-}
-
-.burger-block__top, .burger-block__center, .burger-block__bottom {
-  width: 17px;
-  height: 2px;
-  background-color: #ffffff;
-  position: absolute;
-}
-
-.burger-block__top {
-  top: 0;
-}
-
-.burger-block__center {
-  top: 7px;
-}
-
-.burger-block__bottom {
-  top: 14px;
-}
-
-.burger-text {
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-left: 34px;
-}
-
-.burger-open.burger-block__top {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-  top: 0;
-}
-
 .offer:before {
   content: '';
   background: url(../img/offer/offer.jpg) center no-repeat;
@@ -558,9 +572,19 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    position: absolute;
+    top: 77px;
+  }
+  .header-nav__item {
+    margin: 0;
+  }
+  .header-nav__item:first-child {
+    border-top: 2px solid #949494;
   }
   .header-nav__link {
     color: #ffffff;
+    font-size: 18px;
+    padding: 7px 0;
   }
   .header-contact__phone {
     color: #ffffff;

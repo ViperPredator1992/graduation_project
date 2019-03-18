@@ -16,4 +16,36 @@ button
     background-color: transparent
     border: transparent
     border-bottom: 1px solid $button
-    color: $button    
+    color: $button
+
+.burger
+    cursor: pointer
+    position: absolute
+    &-block
+        position: relative
+        &__top,
+        &__center,
+        &__bottom
+           width: 17px
+           height: 2px
+           background-color: $white
+           position: absolute
+           transition: 0.2s
+        &__top
+            top: 0
+        &__center
+            top: 7px
+        &__bottom
+            top: 14px           
+    &-text
+        color: $white
+        text-transform: uppercase
+        margin-left: 34px
+.burger-open .burger-block__top 
+    transform: rotate(45deg)
+    top: 7px
+.burger-open .burger-block__center
+	opacity: 0
+.burger-open .burger-block__bottom
+    transform: rotate(-45deg)
+    top: 7px        
