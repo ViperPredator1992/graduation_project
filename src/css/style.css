@@ -489,6 +489,40 @@ button {
   font-size: 14px;
 }
 
+.burger {
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.burger-block {
+  position: relative;
+}
+
+.burger-block__top, .burger-block__center, .burger-block__bottom {
+  width: 17px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.burger-block__top {
+  top: 0;
+}
+
+.burger-block__center {
+  top: 7px;
+}
+
+.burger-block__bottom {
+  top: 14px;
+}
+
+.burger-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 34px;
+}
+
 .offer:before {
   content: '';
   background: url(../img/offer/offer.jpg) center no-repeat;
@@ -516,6 +550,12 @@ button {
   }
   .header-contact__phone {
     color: #ffffff;
+  }
+  .header-contact {
+    margin-top: 28px;
+  }
+  .header-contact__phone {
+    margin-bottom: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
