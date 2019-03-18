@@ -486,7 +486,10 @@ button {
 .header {
   position: relative;
   z-index: 2;
-  background-color: #e9e9e9;
+  background-color: #e7e7e7;
+  -webkit-box-shadow: 0 21px 21px rgba(0, 0, 0, 0.28);
+          box-shadow: 0 21px 21px rgba(0, 0, 0, 0.28);
+  opacity: 0.9;
 }
 
 .header-block {
@@ -551,7 +554,7 @@ button {
   font-size: 14px;
 }
 
-.offer:before {
+.main:before {
   content: '';
   background: url(../img/offer/offer.jpg) center no-repeat;
   min-height: 710px;
