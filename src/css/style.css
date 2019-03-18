@@ -547,6 +547,13 @@ button {
   }
   .header-nav {
     display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-nav__link {
+    color: #ffffff;
   }
   .header-contact__phone {
     color: #ffffff;
