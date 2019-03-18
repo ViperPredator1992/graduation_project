@@ -554,6 +554,10 @@ button {
   font-size: 14px;
 }
 
+.section-main {
+  padding: 125px 0 102px;
+}
+
 .main:before {
   content: '';
   background: url(../img/offer/offer.jpg) center no-repeat;
