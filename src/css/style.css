@@ -529,7 +529,7 @@ button {
   color: #000000;
   display: block;
   font-weight: normal;
-  border-bottom: 2px solid #949494;
+  border-bottom: 1px solid #949494;
 }
 
 .header-contact {
@@ -598,6 +598,21 @@ button {
   margin: 66px 0 0;
 }
 
+.main-list__image {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+}
+
+.main-list__text {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
 @media (max-width: 1070px) {
   .header-nav__item {
     margin-right: 17px;
@@ -623,7 +638,7 @@ button {
     margin: 0;
   }
   .header-nav__item:first-child {
-    border-top: 2px solid #949494;
+    border-top: 1px solid #949494;
   }
   .header-nav__link {
     color: #ffffff;
