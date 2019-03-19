@@ -591,13 +591,13 @@ button {
 }
 
 .section-main {
-  padding: 125px 0 102px;
+  padding: 125px 0 86px;
 }
 
 .main:before {
   content: '';
   background: url(../img/main/main.jpg) center no-repeat;
-  min-height: 727px;
+  min-height: 710px;
   width: 100%;
   background-size: cover;
   position: absolute;
@@ -727,11 +727,11 @@ button {
 }
 
 .section-type {
-  padding: 73px 0 2px;
+  padding: 93px 0 2px;
 }
 
 .type__title {
-  margin: 0 0 25px;
+  margin: 0 0 20px;
   position: relative;
 }
 
@@ -742,14 +742,14 @@ button {
   background-color: #23bac1;
   position: absolute;
   left: 50%;
-  bottom: -27px;
+  bottom: -22px;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .type__subtitle {
-  margin: 0 0 66px;
+  margin: 0 0 72px;
   padding-top: 43px;
 }
 
@@ -768,7 +768,7 @@ button {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
-  margin: 0 0 24px;
+  margin: 0 0 22px;
 }
 
 .layout__image img {
@@ -832,7 +832,7 @@ button {
   height: 2px;
   background-color: #22bac1;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -1049,10 +1049,10 @@ button {
     margin-bottom: 13px;
   }
   .section-main {
-    padding: 40px 0 20px;
+    padding: 40px 0;
   }
   .main:before {
-    min-height: 582px;
+    min-height: 563px;
   }
   .main .container {
     max-width: 830px;
@@ -1100,7 +1100,7 @@ button {
 
 @media (max-width: 768px) {
   .main:before {
-    min-height: 930px;
+    min-height: 942px;
   }
   .main-block {
     -webkit-box-orient: vertical;
@@ -1151,6 +1151,9 @@ button {
   .burger-text {
     margin-left: 25px;
   }
+  .main:before {
+    min-height: 905px;
+  }
   .main .container {
     max-width: 360px;
   }
@@ -1165,8 +1168,7 @@ button {
     padding: 25px 15px;
   }
   .section-type {
-    padding: 40px 0 0;
-    margin-top: 46px;
+    padding: 40px 0;
   }
   .type__title {
     margin: 0 0 8px;
