@@ -54,9 +54,8 @@ $(document).ready(function () {
 
     new WOW().init();
     $(window).width(function () {
-        $(window).width() < 992 && ($(".wow").removeClass("wow"), 
-        $(".fadeInLeft").removeClass("fadeInLeft"), 
-        $(".fadeInRight").removeClass("fadeInRight"))
+        $(window).width() < 800 && ($(".wow").removeClass("wow"), 
+        $(".fadeInUp").removeClass("fadeInUp"))
     });
 
 });

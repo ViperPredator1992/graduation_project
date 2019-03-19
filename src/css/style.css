@@ -1126,6 +1126,13 @@ button {
   .main-list__image {
     margin-right: 15px;
   }
+  .section-type {
+    padding: 60px 0 0;
+  }
+  .type__subtitle {
+    margin: 0 0 30px;
+    padding-top: 30px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -1156,6 +1163,24 @@ button {
   .main-form {
     max-width: 290px;
     padding: 25px 15px;
+  }
+  .section-type {
+    padding: 80px 0 0;
+  }
+  .type__title {
+    margin: 0 0 8px;
+  }
+  .type__title:after {
+    bottom: -10px;
+  }
+  .type__subtitle {
+    margin: 0 0 20px;
+    padding-top: 30px;
+    font-size: 18px;
+  }
+  .layout {
+    max-width: 310px;
+    padding: 20px 5px 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
