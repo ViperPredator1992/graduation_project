@@ -442,6 +442,13 @@ button {
   border: 1px solid #ff0000;
 }
 
+.section-title {
+  font-weight: normal;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -582,7 +589,7 @@ button {
 .main:before {
   content: '';
   background: url(../img/main/main.jpg) center no-repeat;
-  min-height: 710px;
+  min-height: 727px;
   width: 100%;
   background-size: cover;
   position: absolute;
@@ -709,6 +716,28 @@ button {
   display: block;
   font-size: 15px;
   letter-spacing: 0.38px;
+}
+
+.section-type {
+  padding: 101px 0 32px;
+}
+
+.type__title {
+  margin: 0 0 25px;
+  position: relative;
+}
+
+.type__title:after {
+  content: '';
+  width: 36px;
+  height: 2px;
+  background-color: #23bac1;
+  position: absolute;
+  left: 50%;
+  bottom: -27px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 @media (max-width: 1200px) {
