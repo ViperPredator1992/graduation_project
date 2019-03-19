@@ -438,6 +438,10 @@ button {
   border: none;
 }
 
+.error {
+  border: 1px solid #ff0000;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -685,8 +689,12 @@ button {
 
 .main__form-block label {
   position: absolute;
-  top: 0;
   left: 0;
+  bottom: -1px;
+  width: 100%;
+  color: #ff0000;
+  text-align: center;
+  border: none;
 }
 
 .main__input {
