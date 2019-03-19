@@ -999,6 +999,25 @@ button {
 
 .projects__title {
   margin: 0 0 28px;
+  position: relative;
+}
+
+.projects__title:after {
+  content: '';
+  width: 31px;
+  height: 2px;
+  background-color: #23bac1;
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.projects__subtitle {
+  padding-top: 40px;
+  margin-bottom: 99px;
 }
 
 @media (max-width: 1200px) {
