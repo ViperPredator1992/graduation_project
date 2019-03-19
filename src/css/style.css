@@ -1152,6 +1152,9 @@ button {
     margin: 0 0 30px;
     padding-top: 30px;
   }
+  .layout:last-child .layout-list {
+    height: 120px;
+  }
 }
 
 @media (max-width: 425px) {
