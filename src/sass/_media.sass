@@ -1,3 +1,11 @@
+@media (max-width: 1200px)
+    .main
+        & .container
+            max-width: 1100px
+        &-form
+            margin-right: 0
+        &-text
+            margin-left: 0    
 @media (max-width: 1070px)
     .header
         &-nav
@@ -28,6 +36,21 @@
             margin-top: 28px
             &__phone
                 margin-bottom: 13px
+    .section-main
+        padding: 40px 0 20px 
+    .main
+        &:before 
+            min-height: 582px
+        & .container
+            max-width: 830px    
+        &-text
+            max-width: 360px
+            &__title
+                font-size: 34px
+                line-height: normal
+                margin: -10px auto 25px 0
+        &-list
+            margin: 40px 0 0                                  
 @media (max-width: 425px)
     .header
         & .container
