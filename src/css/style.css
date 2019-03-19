@@ -855,6 +855,10 @@ button {
   line-height: 55px;
 }
 
+.layout:last-child .layout-list {
+  margin: 30px auto 13px;
+}
+
 .layout:last-child .layout-list__item {
   line-height: 21px;
   max-width: 230px;
@@ -983,6 +987,18 @@ button {
     -o-transition: none !important;
     transition: none !important;
   }
+}
+
+.section-projects {
+  padding: 96px 0 99px;
+}
+
+.projects {
+  background-color: #e8e8e8;
+}
+
+.projects__title {
+  margin: 0 0 28px;
 }
 
 @media (max-width: 1200px) {
