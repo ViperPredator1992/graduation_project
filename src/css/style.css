@@ -756,15 +756,37 @@ button {
 .layout {
   max-width: 370px;
   width: 100%;
-  padding: 33px 35 40px;
+  padding: 33px 35px 40px;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
 }
 
+.layout__title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.layout__image img {
+  display: block;
+  margin: auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 .layout:hover {
   -webkit-box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+}
+
+.layout:hover img {
+  display: block;
+  margin: auto;
+  -webkit-filter: none;
+          filter: none;
 }
 
 @media (max-width: 1200px) {
