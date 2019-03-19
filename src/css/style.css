@@ -727,7 +727,7 @@ button {
 }
 
 .section-type {
-  padding: 101px 0 2px;
+  padding: 73px 0 2px;
 }
 
 .type__title {
@@ -749,7 +749,7 @@ button {
 }
 
 .type__subtitle {
-  margin: 0 0 79px;
+  margin: 0 0 66px;
   padding-top: 43px;
 }
 
@@ -812,7 +812,7 @@ button {
 .layout-list {
   list-style-type: none;
   padding: 0;
-  margin: 35px auto 31px;
+  margin: 24px auto 19px;
   text-align: center;
   height: 245px;
   overflow: hidden;
@@ -1165,7 +1165,8 @@ button {
     padding: 25px 15px;
   }
   .section-type {
-    padding: 80px 0 0;
+    padding: 40px 0 0;
+    margin-top: 46px;
   }
   .type__title {
     margin: 0 0 8px;
