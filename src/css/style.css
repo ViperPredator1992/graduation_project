@@ -449,6 +449,14 @@ button {
   text-align: center;
 }
 
+.section-subtitle {
+  display: block;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -738,6 +746,11 @@ button {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.type__subtitle {
+  margin: 0 0 79px;
+  padding-top: 43px;
 }
 
 @media (max-width: 1200px) {
