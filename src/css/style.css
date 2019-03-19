@@ -679,6 +679,16 @@ button {
   font-weight: bold;
 }
 
+.main__form-block {
+  position: relative;
+}
+
+.main__form-block label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .main__input {
   margin-bottom: 15px;
 }
