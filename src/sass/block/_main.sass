@@ -11,7 +11,10 @@
         top: 0
         left: 0
     &-block
-        position: relative    
+        position: relative 
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between   
     &-text
         max-width: 510px
         &__title
@@ -29,14 +32,24 @@
         list-style-type: none
         padding: 0
         margin: 66px 0 0
+        &__item
+            display: flex
+            align-items: center
+            margin-bottom: 21px
         &__image
             width: 35px
             height: 35px
-            border: 1px solid darken($white,10%)
+            border: 1px solid $image-color
             border-radius: 50%
-            text-align: center
-            line-height: 35px
+            display: flex
+            align-items: center
+            justify-content: center
+            margin-right: 25px
         &__text
             font-size: 15px
             color: $white
-            font-weight: 300       
+            max-width: 206px
+            font-weight: 300 
+    &-form
+        max-width: 370px
+        background-color: $white               
