@@ -96,12 +96,12 @@ $(document).ready(function () {
         nextArrow: $('.arrows-right__arrow')
     });
 
-    $(".map-show-on-click").click(function () {
+    $(".map-show").hover(function () {
         var map = $(this).attr("data-map");
         var map_width = $(window).width();
         var map_height = $(this).attr("data-map-height");
         $(this).css("height", map_height);
-        if (map_width > window) { map_width = 640; }
+        if (map_width > window) { map_width = window; }
         $(this).html('<iframe src="' + map + '" width="' + map_width + '" height="' + map_height + '" frameborder="0" style="border:0" allowfullscreen></iframe>');
     }); 
 
