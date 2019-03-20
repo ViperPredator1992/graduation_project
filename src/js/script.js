@@ -58,4 +58,6 @@ $(document).ready(function () {
         $(".fadeInUp").removeClass("fadeInUp"))
     });
 
+    $('.slider').slick();
+
 });
