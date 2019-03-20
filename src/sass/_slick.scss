@@ -13,7 +13,7 @@
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-    max-width: 905px;
+    max-width: 870px;
     margin: auto
 }
 .slick-list {
@@ -87,8 +87,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 905px;
-        margin: auto
+        // max-width: 905px;
+        // margin: auto
     }
 
     .slick-loading & {

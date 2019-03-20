@@ -457,6 +457,7 @@ button {
   display: none;
   cursor: pointer;
   position: absolute;
+  top: 30px;
 }
 
 .burger-block {
@@ -989,7 +990,7 @@ button {
 }
 
 .section-projects {
-  padding: 90px 0 100px;
+  padding: 90px 0 80px;
 }
 
 .projects {
@@ -1130,7 +1131,7 @@ button {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
-  max-width: 905px;
+  max-width: 870px;
   margin: auto;
 }
 
@@ -1212,8 +1213,6 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 905px;
-  margin: auto;
 }
 
 .slick-loading .slick-slide {
@@ -1238,6 +1237,13 @@ button {
   background: url(../img/equipment/equipment.jpg) no-repeat;
   min-height: 756px;
   background-size: cover;
+}
+
+.equipment__title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 31px;
 }
 
 @media (max-width: 1200px) {
@@ -1321,7 +1327,7 @@ button {
     color: #ffffff;
   }
   .header-contact {
-    margin-top: 28px;
+    margin: 15px 0;
   }
   .header-contact__phone {
     margin-bottom: 13px;
@@ -1485,7 +1491,7 @@ button {
     padding: 0 8px;
   }
   .header-nav {
-    top: 80px;
+    top: 70px;
   }
   .header-nav__link {
     padding: 7px 8px;
