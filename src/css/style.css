@@ -1334,6 +1334,10 @@ button {
   right: -8px;
 }
 
+.map-show iframe {
+  height: 400px;
+}
+
 @media (max-width: 1200px) {
   .main .container {
     max-width: 1100px;
