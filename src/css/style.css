@@ -1388,13 +1388,21 @@ button {
     display: block;
   }
   .projects__arrows {
-    top: 100%;
+    top: 105%;
   }
   .arrows__right {
-    right: 50px;
+    right: 150px;
   }
   .arrows__left {
-    left: 50px;
+    left: 150px;
+  }
+  .slick-slider,
+  .slick-initialized .slick-slide {
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  .section-projects {
+    padding: 50px 0 70px;
   }
 }
 
@@ -1450,6 +1458,15 @@ button {
   }
 }
 
+@media (max-width: 500px) {
+  .section-title {
+    font-size: 26px;
+  }
+  .projects__arrows {
+    top: 103%;
+  }
+}
+
 @media (max-width: 425px) {
   .header .container {
     padding: 0 8px;
@@ -1499,6 +1516,37 @@ button {
   .layout {
     max-width: 310px;
     padding: 20px 5px 30px;
+  }
+  .arrows__right {
+    right: 110px;
+  }
+  .arrows__left {
+    left: 110px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .projects__title {
+    margin: 0 0 20px;
+  }
+  .projects__title:after {
+    bottom: -15px;
+  }
+  .projects__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .arrows__right {
+    right: 95px;
+  }
+  .arrows__left {
+    left: 95px;
+  }
+  .slick-slider,
+  .slick-initialized .slick-slide {
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
