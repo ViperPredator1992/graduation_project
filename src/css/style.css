@@ -1045,7 +1045,7 @@ button {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
-  padding: 0 0 60px;
+  margin: 0 0 60px;
 }
 
 .content {
@@ -1064,7 +1064,7 @@ button {
   font-size: 12px;
   font-weight: 300;
   line-height: 20px;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .content__text {
@@ -1072,6 +1072,20 @@ button {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
+  margin: 0;
+}
+
+.content__button {
+  margin-top: 67px;
+  width: 216px;
+  height: 60px;
+  background-color: #23bac1;
+  text-transform: uppercase;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.33px;
+  color: #ffffff;
 }
 
 /* Slider */
@@ -1088,6 +1102,8 @@ button {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
+  max-width: 905px;
+  margin: auto;
 }
 
 .slick-list {
@@ -1168,6 +1184,8 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 905px;
+  margin: auto;
 }
 
 .slick-loading .slick-slide {
