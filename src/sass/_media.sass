@@ -15,6 +15,24 @@
         &-nav
             &__item
                 margin-right: 17px
+@media (max-width: 1024px)
+    .section-projects
+        padding: 60px 0 50px
+    .projects
+        &__title
+            &:after
+                bottom: -20px
+        &__subtitle
+            padding-top: 20px
+            margin-bottom: 50px
+    .slick-slider,
+    .slick-initialized .slick-slide
+        max-width: 780px
+    .slider
+        &__image
+            width: 390px
+        &-project
+            max-width: 330px                                        
 @media (max-width: 992px)
     .header
         background-color: transparent
@@ -71,7 +89,43 @@
             filter: none
         &:hover .layout-modal__link 
             background-color: transparent
-            color: $black 
+            color: $black
+@media (max-width: 890px)
+    .projects
+        & .container
+            max-width: 500px
+        &__subtitle
+            max-width: 360px
+            margin: 0 auto 25px    
+    .slick-initialized .slick-slide
+        flex-direction: column
+        align-items: center
+    .projects
+        &__subtitle
+            padding-top: 10px
+            margin-bottom: 30px
+            font-size: 18px
+    .slider
+        &__title
+            margin: 25px 0 20px
+            text-align: center
+        &__name
+            margin: 0 0 25px    
+    .content
+        &__button
+            margin: 40px auto 0
+            display: block
+    .projects__arrows
+        top: 100%
+    .arrows__right
+        right: 50px
+    .arrows__left
+        left: 50px
+    .slick-slider, 
+    .slick-initialized .slick-slide
+    max-width: 500px;
+    margin-bottom: 20px;
+}                                                             
 @media (max-width: 790px)
     .layouts
         flex-direction: column
