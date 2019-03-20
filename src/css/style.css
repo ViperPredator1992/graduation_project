@@ -382,6 +382,7 @@ template {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -396,11 +397,6 @@ img {
 
 a {
   text-decoration: none;
-}
-
-button,
-input {
-  outline: none;
 }
 
 button {
@@ -990,7 +986,7 @@ button {
 }
 
 .section-projects {
-  padding: 96px 0 99px;
+  padding: 90px 0 100px;
 }
 
 .projects {
@@ -998,7 +994,7 @@ button {
 }
 
 .projects__title {
-  margin: 0 0 28px;
+  margin: 0 0 25px;
   position: relative;
 }
 
@@ -1009,15 +1005,15 @@ button {
   background-color: #23bac1;
   position: absolute;
   left: 50%;
-  bottom: -30px;
+  bottom: -27px;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .projects__subtitle {
-  padding-top: 40px;
-  margin-bottom: 99px;
+  padding-top: 39px;
+  margin-bottom: 97px;
 }
 
 .slider-project {
@@ -1026,13 +1022,14 @@ button {
 
 .slider__image {
   width: 409px;
+  height: 340px;
 }
 
 .slider__title {
   color: #000000;
   font-size: 24px;
   font-weight: normal;
-  margin: 3px 0 53px;
+  margin: 0 0 44px;
 }
 
 .slider__description {
@@ -1041,7 +1038,7 @@ button {
   font-size: 12px;
   font-weight: 300;
   line-height: 20px;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 
 .slider__name {
@@ -1049,7 +1046,7 @@ button {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
-  margin: 0 0 60px;
+  margin: 0 0 52px;
 }
 
 .content {
@@ -1068,7 +1065,7 @@ button {
   font-size: 12px;
   font-weight: 300;
   line-height: 20px;
-  margin: 0 0 16px;
+  margin: 0 0 7px;
 }
 
 .content__text {
@@ -1080,7 +1077,7 @@ button {
 }
 
 .content__button {
-  margin-top: 67px;
+  margin-top: 62px;
   width: 216px;
   height: 60px;
   background-color: #23bac1;
@@ -1133,12 +1130,6 @@ button {
   -webkit-tap-highlight-color: transparent;
   max-width: 905px;
   margin: auto;
-}
-
-.slick-slider:focus,
-.slick-slider .slick-list:focus,
-.slick-list:focus {
-  outline: none;
 }
 
 .slick-list {
