@@ -32,7 +32,15 @@
         &__image
             width: 390px
         &-project
-            max-width: 330px                                        
+            max-width: 330px
+    .section-equipment
+        padding: 80px 0 0
+    .equipments
+        margin-bottom: 45px
+    .equipment
+        min-height: 635px
+        &__title
+            margin: 0 auto 60px                                                  
 @media (max-width: 992px)
     .header
         background-color: $footer-bg
@@ -40,7 +48,7 @@
             display: none
             flex-direction: column
             position: absolute
-            top: 90px
+            top: 80px
             left: 0
             width: 100%
             &__item
@@ -59,7 +67,6 @@
             &__phone
                 color: $white 
         &-contact
-            //margin-top: 28px
             margin: 15px 0
             &__phone
                 margin-bottom: 13px
@@ -127,7 +134,24 @@
         max-width: 500px
         margin-bottom: 20px
     .section-projects
-        padding: 50px 0 70px                                                                
+        padding: 50px 0 70px
+    .section-equipment
+        padding: 50px 0 0
+    .equipment
+        min-height: 570px
+        &__title
+            font-size: 20px
+            line-height: normal
+            max-width: 530px
+@media (max-width: 800px) 
+    .equipment
+        & .container
+            max-width: 600px
+    .equipments
+        flex-basis: 50%
+        &__text
+            margin: 0 auto
+            max-width: 250px
 @media (max-width: 790px)
     .layouts
         flex-direction: column
@@ -163,6 +187,14 @@
     .layout
         &:last-child .layout-list
             height: 120px 
+@media (max-width: 570px)
+    .equipments
+        &-block
+            flex-direction: column
+            align-items: center
+    .equipment
+        &__title
+            max-width: 390px                       
 @media (max-width: 500px)
     .section-title
         font-size: 26px
@@ -222,6 +254,10 @@
                 bottom: -15px    
         &__subtitle
             font-size: 16px
+    .equipment
+        &__title
+            font-size: 18px
+            max-width: none            
 @media (max-width: 390px) 
     .arrows__right
         right: 95px
