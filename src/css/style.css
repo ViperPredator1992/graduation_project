@@ -1680,7 +1680,7 @@ button {
 
 @media (max-width: 337px) {
   .projects__arrows {
-    top: 89%;
+    top: 92%;
   }
   .arrows__right {
     right: 0;
@@ -1690,6 +1690,10 @@ button {
   }
   .section-projects {
     padding: 50px 0 20px;
+  }
+  .slider__name {
+    line-height: normal;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
