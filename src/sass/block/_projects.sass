@@ -20,6 +20,9 @@
 .slider
     &-project
         max-width: 405px
+    &__image
+        width: 409px
+        // height: 340px    
     &__title
         color: $black
         font-size: 24px
@@ -65,3 +68,21 @@
         font-weight: normal
         letter-spacing: 0.33px
         color: $white
+.wrap-slide
+    position: relative
+.projects__arrows
+    position: absolute
+    top: 50%
+    width: 100%
+.arrows
+    &__left,
+    &__right
+        position: absolute
+        width: 14px
+        height: 26px
+        cursor: pointer
+    &__right
+        right: 0
+    &__left
+        left: 0            
+            

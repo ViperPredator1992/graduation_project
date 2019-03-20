@@ -1024,6 +1024,10 @@ button {
   max-width: 405px;
 }
 
+.slider__image {
+  width: 409px;
+}
+
 .slider__title {
   color: #000000;
   font-size: 24px;
@@ -1088,6 +1092,31 @@ button {
   color: #ffffff;
 }
 
+.wrap-slide {
+  position: relative;
+}
+
+.projects__arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrows__left, .arrows__right {
+  position: absolute;
+  width: 14px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.arrows__right {
+  right: 0;
+}
+
+.arrows__left {
+  left: 0;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -1104,6 +1133,12 @@ button {
   -webkit-tap-highlight-color: transparent;
   max-width: 905px;
   margin: auto;
+}
+
+.slick-slider:focus,
+.slick-slider .slick-list:focus,
+.slick-list:focus {
+  outline: none;
 }
 
 .slick-list {
