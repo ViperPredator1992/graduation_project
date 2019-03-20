@@ -63,4 +63,37 @@ $(document).ready(function () {
         nextArrow: $('.arrows__right')
     });
 
+    $('.responsive').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1060,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 710,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 510,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ],
+        prevArrow: $('.arrows-left__arrow'),
+        nextArrow: $('.arrows-right__arrow')
+    });
+
 });

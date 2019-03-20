@@ -15,6 +15,8 @@
         &-nav
             &__item
                 margin-right: 17px
+    .arrows-right__arrow
+        right: 8px                
 @media (max-width: 1024px)
     .section-projects
         padding: 60px 0 50px
@@ -40,7 +42,12 @@
     .equipment
         min-height: 635px
         &__title
-            margin: 0 auto 60px                                                  
+            margin: 0 auto 60px
+    .section-clients
+        padding: 50px 0
+    .clients
+        &__title
+            margin: 0 0 50px                                                              
 @media (max-width: 992px)
     .header
         background-color: $footer-bg
@@ -124,15 +131,14 @@
             margin: 40px auto 0
             display: block
     .projects__arrows
-        top: 105%
+        top: 93%
     .arrows__right
-        right: 150px
+        right: 80px
     .arrows__left
-        left: 150px
+        left: 80px
     .slick-slider, 
     .slick-initialized .slick-slide
         max-width: 500px
-        margin-bottom: 20px
     .section-projects
         padding: 50px 0 70px
     .section-equipment
@@ -198,8 +204,21 @@
 @media (max-width: 500px)
     .section-title
         font-size: 26px
-    .projects__arrows
-        top: 103%                                                                                                  
+    .arrows__right
+        right: 65px
+    .arrows__left
+        left: 65px
+    .clients__title
+        margin: 0 0 30px
+    .arrows-left__arrow
+        left: 30px
+    .arrows-right__arrow
+        right: 30px    
+@media (max-width: 450px)
+    .arrows__right
+        right: 40px
+    .arrows__left
+        left: 40px                                                                                                              
 @media (max-width: 425px)
     .header
         & .container
@@ -270,6 +289,10 @@
         right: 5px
     .arrows__left
         left: 5px
+    .arrows-left__arrow
+        left: 8px
+    .arrows-right__arrow
+        right: 8px    
 @media (max-width: 337px)
     .projects__arrows
         top: 92%

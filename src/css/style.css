@@ -1356,6 +1356,9 @@ button {
   .header-nav__item {
     margin-right: 17px;
   }
+  .arrows-right__arrow {
+    right: 8px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1390,6 +1393,12 @@ button {
   }
   .equipment__title {
     margin: 0 auto 60px;
+  }
+  .section-clients {
+    padding: 50px 0;
+  }
+  .clients__title {
+    margin: 0 0 50px;
   }
 }
 
@@ -1507,18 +1516,17 @@ button {
     display: block;
   }
   .projects__arrows {
-    top: 105%;
+    top: 93%;
   }
   .arrows__right {
-    right: 150px;
+    right: 80px;
   }
   .arrows__left {
-    left: 150px;
+    left: 80px;
   }
   .slick-slider,
   .slick-initialized .slick-slide {
     max-width: 500px;
-    margin-bottom: 20px;
   }
   .section-projects {
     padding: 50px 0 70px;
@@ -1625,8 +1633,29 @@ button {
   .section-title {
     font-size: 26px;
   }
-  .projects__arrows {
-    top: 103%;
+  .arrows__right {
+    right: 65px;
+  }
+  .arrows__left {
+    left: 65px;
+  }
+  .clients__title {
+    margin: 0 0 30px;
+  }
+  .arrows-left__arrow {
+    left: 30px;
+  }
+  .arrows-right__arrow {
+    right: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .arrows__right {
+    right: 40px;
+  }
+  .arrows__left {
+    left: 40px;
   }
 }
 
@@ -1720,6 +1749,12 @@ button {
   }
   .arrows__left {
     left: 5px;
+  }
+  .arrows-left__arrow {
+    left: 8px;
+  }
+  .arrows-right__arrow {
+    right: 8px;
   }
 }
 

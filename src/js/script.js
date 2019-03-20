@@ -71,21 +71,21 @@ $(document).ready(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1060,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 710,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 510,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
