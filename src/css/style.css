@@ -1072,7 +1072,7 @@ button {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
-  margin: 0;
+  margin: 0 -18px 0 0;
 }
 
 .content__button {
@@ -1094,7 +1094,7 @@ button {
 
 .projects__arrows {
   position: absolute;
-  top: 50%;
+  top: 44%;
   width: 100%;
 }
 
@@ -1106,11 +1106,11 @@ button {
 }
 
 .arrows__right {
-  right: 0;
+  right: -7px;
 }
 
 .arrows__left {
-  left: 0;
+  left: 10px;
 }
 
 /* Slider */
@@ -1225,6 +1225,16 @@ button {
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.section-equipment {
+  padding: 108px 0 126px;
+}
+
+.equipment {
+  background: url(../img/equipment/equipment.jpg) no-repeat;
+  min-height: 756px;
+  background-size: cover;
 }
 
 @media (max-width: 1200px) {
