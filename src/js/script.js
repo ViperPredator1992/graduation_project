@@ -92,8 +92,8 @@ $(document).ready(function () {
                 }
             }
         ],
-        prevArrow: $('.left__arrow'),
-        nextArrow: $('.right__arrow')
+        prevArrow: $('.arrows-left__arrow'),
+        nextArrow: $('.arrows-right__arrow')
     });
 
 });
