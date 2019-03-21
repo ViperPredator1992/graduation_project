@@ -38,7 +38,8 @@ $(document).ready(function () {
                 required: "Заполните пожалуйста поле"
             },
             user_email: {
-                required: "Заполните пожалуйста поле"
+                required: "Заполните пожалуйста поле",
+                email: "Введите корректный email"
             }
         }
     });
@@ -64,7 +65,8 @@ $(document).ready(function () {
                 required: "Заполните пожалуйста поле"
             },
             user_email: {
-                required: "Заполните пожалуйста поле"
+                required: "Заполните пожалуйста поле",
+                email: "Введите корректный email"
             }
         }
     });
