@@ -1,71 +1,71 @@
-.ymap-container
-  position: relative
-  overflow: hidden
-  cursor: pointer
-  background: url('../img/footer/map.jpg') center no-repeat
-  background-size: cover
+// .ymap-container
+//   position: relative
+//   overflow: hidden
+//   cursor: pointer
+//   background: url('../img/footer/map.jpg') center no-repeat
+//   background-size: cover
  
-/* Блок, в котором появится Яндекс.Карта */
-#map-yandex
-  position: relative
-  z-index: 7
-  width: 100%
-  height: 422px
-  cursor: pointer
-  background-color: transparent 
+// /* Блок, в котором появится Яндекс.Карта */
+// #map-yandex
+//   position: relative
+//   z-index: 7
+//   width: 100%
+//   height: 422px
+//   cursor: pointer
+//   background-color: transparent 
 
-.loader
-  position: absolute
-  z-index: 15
-  top: -100%
-  left: 0
-  width: 100%
-  height: 100%
-  overflow: hidden
-  color: $black
-  transition: opacity .7s ease
-  opacity: 0
-  background-color: rgba(0,0,0,.55)
+// .loader
+//   position: absolute
+//   z-index: 15
+//   top: -100%
+//   left: 0
+//   width: 100%
+//   height: 100%
+//   overflow: hidden
+//   color: $black
+//   transition: opacity .7s ease
+//   opacity: 0
+//   background-color: rgba(0,0,0,.55)
 
-.loader.is-active
-  top: 0
-  opacity: 1
+// .loader.is-active
+//   top: 0
+//   opacity: 1
  
-.loader-default:after
-  position: absolute
-  top: calc(50% - 24px)
-  left: calc(50% - 24px)
-  width: 48px
-  height: 48px
-  content: ''
-  animation: rotation 1s linear infinite
-  border: solid 8px $white;
-  border-left-color: transparent
-  border-radius: 50%
+// .loader-default:after
+//   position: absolute
+//   top: calc(50% - 24px)
+//   left: calc(50% - 24px)
+//   width: 48px
+//   height: 48px
+//   content: ''
+//   animation: rotation 1s linear infinite
+//   border: solid 8px $white;
+//   border-left-color: transparent
+//   border-radius: 50%
  
-@keyframes rotation
-  from
-    transform: rotate(0)
-  to
-    transform: rotate(359deg)
+// @keyframes rotation
+//   from
+//     transform: rotate(0)
+//   to
+//     transform: rotate(359deg)
 
-@keyframes blink
-  from
-    opacity: .5
-  to
-    opacity: 1 
+// @keyframes blink
+//   from
+//     opacity: .5
+//   to
+//     opacity: 1 
 
-ymaps .ymaps-2-1-73-copyright,
-ymaps .ymaps-2-1-73-float-button-icon_icon_expand,
-ymaps .ymaps-2-1-73-zoom__scale,
-ymaps .ymaps-2-1-73-_hidden-text
-  display: none  
-ymaps .ymaps-2-1-73-zoom
-  height: auto !important
-ymaps .ymaps-2-1-73-zoom__plus
-  top: 50px
-ymaps .ymaps-2-1-73-zoom__minus
-    bottom: -60px             
+// ymaps .ymaps-2-1-73-copyright,
+// ymaps .ymaps-2-1-73-float-button-icon_icon_expand,
+// ymaps .ymaps-2-1-73-zoom__scale,
+// ymaps .ymaps-2-1-73-_hidden-text
+//   display: none  
+// ymaps .ymaps-2-1-73-zoom
+//   height: auto !important
+// ymaps .ymaps-2-1-73-zoom__plus
+//   top: 50px
+// ymaps .ymaps-2-1-73-zoom__minus
+//     bottom: -60px             
 .contacts
   &-section
     padding: 50px 0 58px
@@ -103,4 +103,9 @@ ymaps .ymaps-2-1-73-zoom__minus
   margin-top: 6px
   margin-left: 14px
 .contacts-right
-  margin-right: -6px            
+  margin-right: -6px
+.map-show iframe
+  height: 422px
+.map-show img
+  width: 100%
+  height: 422px                
