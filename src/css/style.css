@@ -1337,14 +1337,11 @@ button {
 
 .ymap-container {
   position: relative;
-  margin: 3em 0 2em 0;
   overflow: hidden;
   cursor: pointer;
-  background: url("../img/yandex-before-load.png") #ffffff no-repeat;
+  background: url("../img/footer/map.jpg") #ffffff no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Блок, в котором появится Яндекс.Карта */
@@ -1352,7 +1349,7 @@ button {
   position: relative;
   z-index: 7;
   width: 100%;
-  height: 20em;
+  height: 400px;
   cursor: pointer;
   background-color: transparent;
 }
