@@ -42,6 +42,31 @@ $(document).ready(function () {
         }
     });
 
+    $('#modal-form').validate({
+        rules: {
+            user_name: {
+                required: true
+            },
+            user_phone: {
+                required: true
+            },
+            user_email: {
+                required: true
+            }
+        },
+        messages: {
+            user_name: {
+                required: "Заполните пожалуйста поле"
+            },
+            user_phone: {
+                required: "Заполните пожалуйста поле"
+            },
+            user_email: {
+                required: "Заполните пожалуйста поле"
+            }
+        }
+    });
+
     $('.phone').mask('+7 (999) 999-99-99');
 
     $('.header-nav__link').click(function () {
@@ -158,4 +183,21 @@ $(document).ready(function () {
 //        ymap()
 //    });
 
+    $('.button-callback').click(function () {
+        $('.mask, .modal').fadeIn();
+    });
+
+    
+    $('.content__button').click(function () {
+        $('.mask, .modal').fadeIn();
+    });
+    
+    $('.layout-modal__link').click(function (e) {
+        e.preventDefault();
+        $('.mask, .modal').fadeIn();
+    });
+    
+    $('.mask, .modal-form__close').click(function () {
+        $('.modal, .mask').fadeOut();
+    });
 });
