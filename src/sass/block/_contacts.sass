@@ -66,14 +66,30 @@ ymaps .ymaps-2-1-73-zoom__plus
   top: 50px
 ymaps .ymaps-2-1-73-zoom__minus
     bottom: -60px             
-.contacts-section
-  padding: 50px 0 58px
-  background-color: $footer-bg
-  &-left
-    &__address
-      color: $white
-      font-size: 13px
-      font-weight: 300
-      margin: 0
+.contacts
+  &-section
+    padding: 50px 0 58px
+    background-color: $footer-bg
+  &__address
+    color: $white
+    font-size: 13px
+    font-weight: 300
+    margin: 0 0 0 35px
+    position: relative
     &:before
-      content: url(../img/footer/geo.svg) 
+        content: url(../img/footer/geo.png)
+        position: absolute
+        top: 5px
+        left: -35px
+.footer-contact
+  display: flex
+  flex-direction: column
+  width: 186px
+.footer-contact__phone
+  text-align: right
+  font-size: 17px
+  font-weight: bold
+  color: $white 
+.footer-contact__callback
+  padding: 0
+  width: 175px          

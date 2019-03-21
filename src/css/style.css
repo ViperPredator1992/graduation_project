@@ -1452,15 +1452,42 @@ ymaps .ymaps-2-1-73-zoom__minus {
   background-color: #191919;
 }
 
-.contacts-section-left__address {
+.contacts__address {
   color: #ffffff;
   font-size: 13px;
   font-weight: 300;
-  margin: 0;
+  margin: 0 0 0 35px;
+  position: relative;
 }
 
-.contacts-section-left:before {
-  content: url(../img/footer/geo.svg);
+.contacts__address:before {
+  content: url(../img/footer/geo.png);
+  position: absolute;
+  top: 5px;
+  left: -35px;
+}
+
+.footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 186px;
+}
+
+.footer-contact__phone {
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.footer-contact__callback {
+  padding: 0;
+  width: 175px;
 }
 
 @media (max-width: 1200px) {
