@@ -1339,8 +1339,7 @@ button {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  background: url("../img/footer/map.jpg") #ffffff no-repeat;
-  background-position: center center;
+  background: url("../img/footer/map.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -1427,6 +1426,25 @@ button {
   to {
     opacity: 1;
   }
+}
+
+ymaps .ymaps-2-1-73-copyright,
+ymaps .ymaps-2-1-73-float-button-icon_icon_expand,
+ymaps .ymaps-2-1-73-zoom__scale,
+ymaps .ymaps-2-1-73-_hidden-text {
+  display: none;
+}
+
+ymaps .ymaps-2-1-73-zoom {
+  height: auto !important;
+}
+
+ymaps .ymaps-2-1-73-zoom__plus {
+  top: 50px;
+}
+
+ymaps .ymaps-2-1-73-zoom__minus {
+  bottom: -60px;
 }
 
 @media (max-width: 1200px) {
