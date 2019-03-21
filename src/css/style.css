@@ -1516,6 +1516,7 @@ ymaps .ymaps-2-1-73-zoom__minus {
 }
 
 .mask {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -1526,6 +1527,9 @@ ymaps .ymaps-2-1-73-zoom__minus {
 }
 
 .modal {
+  display: none;
+  max-width: 370px;
+  width: 100%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -1536,8 +1540,6 @@ ymaps .ymaps-2-1-73-zoom__minus {
 }
 
 .modal-form {
-  max-width: 370px;
-  width: 100%;
   background-color: #ffffff;
   padding: 40px 55px 43px;
   position: relative;
@@ -1547,9 +1549,9 @@ ymaps .ymaps-2-1-73-zoom__minus {
   position: absolute;
   top: 0;
   right: 0;
-  width: 32px;
-  height: 32px;
-  font-size: 28px;
+  width: 28px;
+  height: 28px;
+  font-size: 26px;
   border: none;
 }
 
@@ -2026,6 +2028,12 @@ ymaps .ymaps-2-1-73-zoom__minus {
   }
   .section-projects {
     padding: 50px 0;
+  }
+  .modal-form {
+    padding: 45px 25px 30px;
+  }
+  .modal {
+    max-width: 95%;
   }
 }
 

@@ -183,4 +183,21 @@ $(document).ready(function () {
 //        ymap()
 //    });
 
+    $('.button-callback').click(function () {
+        $('.mask, .modal').fadeIn();
+    });
+
+    
+    $('.content__button').click(function () {
+        $('.mask, .modal').fadeIn();
+    });
+    
+    $('.layout-modal__link').click(function (e) {
+        e.preventDefault();
+        $('.mask, .modal').fadeIn();
+    });
+    
+    $('.mask, .modal-form__close').click(function () {
+        $('.modal, .mask').fadeOut();
+    });
 });
