@@ -1447,6 +1447,22 @@ ymaps .ymaps-2-1-73-zoom__minus {
   bottom: -60px;
 }
 
+.contacts-section {
+  padding: 50px 0 58px;
+  background-color: #191919;
+}
+
+.contacts-section-left__address {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.contacts-section-left:before {
+  content: url(../img/footer/geo.svg);
+}
+
 @media (max-width: 1200px) {
   .main .container {
     max-width: 1100px;

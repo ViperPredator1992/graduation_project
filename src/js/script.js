@@ -220,6 +220,7 @@ $(document).ready(function () {
        e.geoObjects.add(n), waitForTilesLoad(e.layers.get(0).get(0)).then(function () {
            spinner.removeClass("is-active")
        })
+       
    }
 
    function waitForTilesLoad(o) {
