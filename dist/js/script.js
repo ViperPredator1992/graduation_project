@@ -150,4 +150,11 @@ $(document).ready(function () {
         $(this).html(`<iframe src="${map}" width="${map_width}" style="border:0" allowfullscreen></iframe>`);
     });
 
+    $('#send1').val('');
+    $('#send2').val('');
+    $('#send3').val('');
+    $('#send4').val('');
+    $('#send5').val('');
+    $('#send6').val('');
+
 });
