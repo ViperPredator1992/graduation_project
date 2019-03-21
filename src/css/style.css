@@ -1412,8 +1412,8 @@ button {
 }
 
 .map {
-  background: url(../img/footer/map.jpg) no-repeat;
-  width: 100%;
+  background: url(../img/footer/map.jpg) center no-repeat;
+  background-size: cover;
   height: 422px;
 }
 
