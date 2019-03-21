@@ -42,6 +42,31 @@ $(document).ready(function () {
         }
     });
 
+    $('#modal-form').validate({
+        rules: {
+            user_name: {
+                required: true
+            },
+            user_phone: {
+                required: true
+            },
+            user_email: {
+                required: true
+            }
+        },
+        messages: {
+            user_name: {
+                required: "Заполните пожалуйста поле"
+            },
+            user_phone: {
+                required: "Заполните пожалуйста поле"
+            },
+            user_email: {
+                required: "Заполните пожалуйста поле"
+            }
+        }
+    });
+
     $('.phone').mask('+7 (999) 999-99-99');
 
     $('.header-nav__link').click(function () {
