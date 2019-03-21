@@ -64,7 +64,7 @@
                         </nav>
                         <!-- /.header-menu -->
                         <div class="header-contact">
-                            <a href="tel:8800891-33-33" class="header-contact__phone">8 800 891-33-33</a>
+                            <a href="tel:88008913333" class="header-contact__phone">8 800 891-33-33</a>
                             <button class="button-callback header-contact__callback">Заказать обратный звонок</button>
                         </div>
                         <!-- /.header-contact -->
@@ -125,15 +125,15 @@
                         <!-- /.main-text -->
                         <div class="main-form">
                             <h2 class="main-form__title">Оставьте заявку и получите расчет стоимость макета в течение <strong>30 минут</strong></h2>
-                            <form action="#" class="form main__form" id="main-form" method="POST">
+                            <form action="mail.php" class="form main__form" id="main-form" method="POST">
                                 <div class="main__form-block">
-                                    <input type="text" name="user_name" class="input main__input" placeholder="Ваше имя">
+                                    <input type="text" name="user_name" id="send4" class="input main__input" placeholder="Ваше имя">
                                 </div>
                                 <div class="main__form-block">
-                                    <input type="tel" name="user_phone" class="input main__input phone" placeholder="Контактный телефон">
+                                    <input type="tel" name="user_phone" id="send5" class="input main__input phone" placeholder="Контактный телефон">
                                 </div>
                                 <div class="main__form-block">
-                                    <input type="email" name="user_email" class="input main__input" placeholder="Электронная почта">
+                                    <input type="email" name="user_email" id="send6" class="input main__input" placeholder="Электронная почта">
                                 </div>
                                 <button class="button main__button" type="submit">Оставить заявку</button>
                             </form>
@@ -593,15 +593,15 @@
             <div class="modal">
                 <div class="modal-form">
                     <button class="modal-form__close">&times;</button>
-                    <form action="#" class="form modal__form" id="modal-form" method="POST">
+                    <form action="mail.php" class="form modal__form" id="modal-form" method="POST">
                         <div class="modal__form-block">
-                            <input type="text" name="user_name" class="input modal__input" placeholder="Ваше имя">
+                            <input type="text" name="user_name" id="send1" class="input modal__input" placeholder="Ваше имя">
                         </div>
                         <div class="modal__form-block">
-                            <input type="tel" name="user_phone" class="input modal__input phone" placeholder="Контактный телефон">
+                            <input type="tel" name="user_phone" id="send2" class="input modal__input phone" placeholder="Контактный телефон">
                         </div>
                         <div class="modal__form-block">
-                            <input type="email" name="user_email" class="input modal__input" placeholder="Электронная почта">
+                            <input type="email" name="user_email" id="send3" class="input modal__input" placeholder="Электронная почта">
                         </div>
                         <button class="button modal__button" type="submit">Оставить заявку</button>
                     </form>
