@@ -96,4 +96,66 @@ $(document).ready(function () {
         nextArrow: $('.arrows-right__arrow')
     });
 
+
+//    var myMapTemp, myPlacemarkTemp, spinner = $(".ymap-container").children(".loader"),
+//        check_if_load = !1;
+
+//    function init() {
+//        var e = new ymaps.Map("map-yandex", {
+//            center: [55.8505, 37.5380],
+//            zoom: 17,
+//            controls: ["zoomControl", "fullscreenControl"]
+//        }, {
+//            suppressMapOpenBlock: !0
+//        });
+//        e.behaviors.disable("scrollZoom");
+//        var n = new ymaps.GeoObject({
+//            geometry: {
+//                type: "Point",
+//                coordinates: [55.8505, 37.5380]
+//            }
+//        });
+//        e.geoObjects.add(n), waitForTilesLoad(e.layers.get(0).get(0)).then(function () {
+//            spinner.removeClass("is-active")
+//        })
+       
+//    }
+
+//    function waitForTilesLoad(o) {
+//        return new ymaps.vow.Promise(function (e, n) {
+//            var a = getTileContainer(o),
+//                t = !0;
+//            a.tiles.each(function (e, n) {
+//                e.isReady() || (t = !1)
+//            }), t ? e() : a.events.once("ready", function () {
+//                e()
+//            })
+//        })
+//    }
+
+//    function getTileContainer(e) {
+//        for (var n in e)
+//            if (e.hasOwnProperty(n) && (e[n] instanceof ymaps.layer.tileContainer.CanvasContainer || e[n] instanceof ymaps.layer.tileContainer.DomContainer)) return e[n];
+//        return null
+//    }
+
+//    function loadScript(e, n) {
+//        var a = document.createElement("script");
+//        a.readyState ? a.onreadystatechange = function () {
+//            "loaded" != a.readyState && "complete" != a.readyState || (a.onreadystatechange = null, n())
+//        } : a.onload = function () {
+//            n()
+//        }, a.src = e, document.getElementsByTagName("head")[0].appendChild(a)
+//    }
+//    var ymap = function () {
+//        $(".ymap-container").mouseenter(function () {
+//            check_if_load || (check_if_load = !0, spinner.addClass("is-active"), loadScript("https://api-maps.yandex.ru/2.1/?apikey=(ca954d3d-7686-48ad-83d2-18b3b60643d8)&lang=ru_RU", function () {
+//                ymaps.load(init)
+//            }))
+//        })
+//    };
+//    $(function () {
+//        ymap()
+//    });
+
 });

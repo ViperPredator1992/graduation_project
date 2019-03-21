@@ -5,7 +5,11 @@
         &-form
             margin-right: 0
         &-text
-            margin-left: 0 
+            margin-left: 0
+    .contacts-left
+        margin: 0
+    .contacts-right
+        margin: 0                 
 @media (max-width: 1160px)
     .type
         & .container
@@ -47,7 +51,13 @@
         padding: 50px 0
     .clients
         &__title
-            margin: 0 0 50px                                                              
+            margin: 0 0 50px
+    #map-yandex
+        height: 320px
+    ymaps .ymaps-2-1-73-zoom__plus
+        top: 30px
+    ymaps .ymaps-2-1-73-zoom__minus
+        bottom: -40px                                                                              
 @media (max-width: 992px)
     .header
         background-color: $footer-bg
@@ -213,7 +223,23 @@
     .arrows-left__arrow
         left: 30px
     .arrows-right__arrow
-        right: 30px    
+        right: 30px
+    .contacts-section .container
+        flex-direction: column
+    .footer-contact__phone
+        margin: 15px auto 10px
+    .contacts__address:before
+        top: -30px
+        left: 50%
+        transform: translateX(-50%)
+    .contacts__address br
+        display: none
+    .contacts__address
+        text-align: center
+        width: 150px
+        margin: 0
+    .contacts-section
+        padding: 50px 0 30px                            
 @media (max-width: 450px)
     .arrows__right
         right: 40px
