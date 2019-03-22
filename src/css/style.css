@@ -415,6 +415,14 @@ button {
   border: transparent;
   border-bottom: 1px solid #22bac1;
   color: #22bac1;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.button-callback:hover {
+  color: #ac3a2e;
+  border-bottom: 1px solid #ac3a2e;
 }
 
 .input {
@@ -432,6 +440,15 @@ button {
   color: #ffffff;
   background-color: #23bac1;
   border: none;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #e7e7e7;
 }
 
 .error {
@@ -1633,6 +1650,20 @@ button {
   .layout:hover .layout-modal__link {
     background-color: transparent;
     color: #000000;
+  }
+  .button-callback:hover {
+    border-bottom: 1px solid #22bac1;
+    color: #22bac1;
+  }
+  .main__button:hover {
+    border: none;
+    color: #ffffff;
+    background-color: #23bac1;
+  }
+  .modal__button:hover {
+    border: none;
+    color: #ffffff;
+    background-color: #23bac1;
   }
 }
 

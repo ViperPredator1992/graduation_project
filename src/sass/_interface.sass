@@ -14,6 +14,10 @@ button
     border: transparent
     border-bottom: 1px solid $button
     color: $button
+    transition: .4s
+    &:hover
+        color: #ac3a2e
+        border-bottom: 1px solid #ac3a2e
 .input
     text-align: center
     width: 100%
@@ -27,6 +31,11 @@ button
     color: $white
     background-color: $form-button
     border: none
+    transition: .3s
+    &:hover
+        background-color: transparent
+        color: $black
+        border: 1px solid $header-bg 
 .error
     border: 1px solid $error
 .section-title
