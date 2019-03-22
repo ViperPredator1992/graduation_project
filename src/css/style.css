@@ -448,7 +448,7 @@ button {
 .button:hover {
   background-color: transparent;
   color: #000000;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #000000;
 }
 
 .error {
@@ -1103,6 +1103,15 @@ button {
   font-weight: normal;
   letter-spacing: 0.33px;
   color: #ffffff;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.content__button:hover {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
 }
 
 .wrap-slide {
@@ -1664,6 +1673,11 @@ button {
     border: none;
     color: #ffffff;
     background-color: #23bac1;
+  }
+  .content__button:hover {
+    background-color: #23bac1;
+    color: #ffffff;
+    border: none;
   }
 }
 
