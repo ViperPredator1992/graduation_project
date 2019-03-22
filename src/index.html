@@ -9,9 +9,9 @@
 </head>
 <body>
     <!-- Yandex.Metrika counter -->
-    <script>(function (a, e, f, g, b, c, d) { a[b] = a[b] || function () { (a[b].a = a[b].a || []).push(arguments) }; a[b].l = 1 * new Date(); c = e.createElement(f), d = e.getElementsByTagName(f)[0], c.async = 1, c.src = g, d.parentNode.insertBefore(c, d) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(52877959, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true });</script>
+    <script>(function (a, e, f, g, b, c, d) { a[b] = a[b] || function () { (a[b].a = a[b].a || []).push(arguments) }; a[b].l = 1 * new Date(); c = e.createElement(f), d = e.getElementsByTagName(f)[0], c.async = 1, c.src = g, d.parentNode.insertBefore(c, d) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(52918375, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true });</script>
     <noscript>
-        <div><img src="https://mc.yandex.ru/watch/52877959" style="position:absolute; left:-9999px;" alt="" /></div>
+        <div><img src="https://mc.yandex.ru/watch/52918375" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
     <div class="wrapper">
@@ -125,7 +125,7 @@
                         <!-- /.main-text -->
                         <div class="main-form">
                             <h2 class="main-form__title">Оставьте заявку и получите расчет стоимость макета в течение <strong>30 минут</strong></h2>
-                            <form action="mail.php" class="form main__form" id="main-form" method="POST">
+                            <form action="mail.php" class="form main__form" id="main-form" method="POST" onsubmit="ym(52918375, 'reachGoal', 'main-form'); return true;">
                                 <div class="main__form-block">
                                     <input type="text" name="user_name" id="send4" class="input main__input" placeholder="Ваше имя">
                                 </div>
@@ -135,7 +135,7 @@
                                 <div class="main__form-block">
                                     <input type="email" name="user_email" id="send6" class="input main__input" placeholder="Электронная почта">
                                 </div>
-                                <button class="button main__button" type="submit">Оставить заявку</button>
+                                <button class="button main__button" type="submit" onclick="ym(52918375, 'reachGoal', 'main-form'); return true;">Оставить заявку</button>
                             </form>
                         </div>
                         <!-- /.main-form -->
@@ -593,7 +593,7 @@
             <div class="modal">
                 <div class="modal-form">
                     <button class="modal-form__close">&times;</button>
-                    <form action="mail.php" class="form modal__form" id="modal-form" method="POST">
+                    <form action="mail.php" class="form modal__form" id="modal-form" method="POST" onsubmit="ym(52918375, 'reachGoal', 'modal-form'); return true;">
                         <div class="modal__form-block">
                             <input type="text" name="user_name" id="send1" class="input modal__input" placeholder="Ваше имя">
                         </div>
@@ -603,7 +603,7 @@
                         <div class="modal__form-block">
                             <input type="email" name="user_email" id="send3" class="input modal__input" placeholder="Электронная почта">
                         </div>
-                        <button class="button modal__button" type="submit">Оставить заявку</button>
+                        <button class="button modal__button" type="submit" onclick="ym(52918375, 'reachGoal', 'modal-form'); return true;">Оставить заявку</button>
                     </form>
                 </div>
             </div>
@@ -611,9 +611,6 @@
     </div>
     <!-- /.wrapper -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
-    <!-- <script src="js/jquery.validate.min.js"></script> -->
-    <!-- <script src="js/jquery.maskedinput.min.js"></script> -->
-    <!-- <script src="js/jquery.validate.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
     <script src="js/script.js"></script>
 </body>
